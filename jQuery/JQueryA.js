@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  $(".final").show();
   $(".Step1").hide();
   $(".Step2").hide();
   $(".Step3").hide();
@@ -10,6 +10,7 @@ $(document).ready(function(){
 
 
   $("#step1").click(function(){
+    $(".final").hide();
     $(".Step1").show();
     $(".Step2").hide();
     $(".Step3").hide();
@@ -20,6 +21,7 @@ $(document).ready(function(){
   });
 
   $("#step2").click(function(){
+    $(".final").hide();
     $(".Step1").hide();
     $(".Step2").show();
     $(".Step3").hide();
@@ -30,7 +32,8 @@ $(document).ready(function(){
   });
 
   $("#step3").click(function(){
-    $(".Step1").show();
+    $(".final").hide();
+    $(".Step1").hide();
     $(".Step2").hide();
     $(".Step3").show();
     $(".Step4").hide();
@@ -40,6 +43,7 @@ $(document).ready(function(){
 
   });
   $("#step4").click(function(){
+    $(".final").hide();
     $("main .1").hide();
     $("main .2").hide();
     $("main .3").hide();
@@ -50,7 +54,8 @@ $(document).ready(function(){
 
   });
   $("#step5").click(function(){
-    $(".Step1").show();
+    $(".final").hide();
+    $(".Step1").hide();
     $(".Step2").hide();
     $(".Step3").hide();
     $(".Step4").hide();
@@ -60,7 +65,8 @@ $(document).ready(function(){
 
   });
   $("#step6").click(function(){
-    $(".Step1").show();
+    $(".final").hide();
+    $(".Step1").hide();
     $(".Step2").hide();
     $(".Step3").hide();
     $(".Step4").hide();

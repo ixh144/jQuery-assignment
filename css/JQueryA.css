@@ -6,6 +6,10 @@ border-radius: 15px 50px 30px;
 
 body {
 font-family: 'Mukta', sans-serif;
+  background-image: url('../img/tomato.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .intro{
   color: black;

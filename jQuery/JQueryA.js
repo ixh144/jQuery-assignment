@@ -19,6 +19,11 @@ $(document).ready(function(){
     $(".Step5").hide();
     $(".Step6").hide();
     $("#step1").addClass("active");
+    $("#step2").removeClass("active");
+    $("#step3").removeClass("active");
+    $("#step4").removeClass("active");
+    $("#step5").removeClass("active");
+    $("#step6").removeClass("active");
   });
 
   $("#step2").click(function(){
@@ -32,6 +37,10 @@ $(document).ready(function(){
     $(".Step6").hide();
     $("#step1").removeClass("active");
     $("#step2").addClass("active");
+    $("#step3").removeClass("active");
+    $("#step4").removeClass("active");
+    $("#step5").removeClass("active");
+    $("#step6").removeClass("active");
 
   });
 
@@ -44,7 +53,12 @@ $(document).ready(function(){
     $(".Step4").hide();
     $(".Step5").hide();
     $(".Step6").hide();
+    $("#step1").removeClass("active");
+    $("#step2").removeClass("active");
     $("#step3").addClass("active");
+    $("#step4").removeClass("active");
+    $("#step5").removeClass("active");
+    $("#step6").removeClass("active");
 
 
   });
@@ -57,7 +71,12 @@ $(document).ready(function(){
     $("main .4").show();
     $("main .5").hide();
     $("main .6").hide();
+    $("#step1").removeClass("active");
+    $("#step2").removeClass("active");
+    $("#step3").removeClass("active");
     $("#step4").addClass("active");
+    $("#step5").removeClass("active");
+    $("#step6").removeClass("active");
 
 
   });
@@ -70,7 +89,12 @@ $(document).ready(function(){
     $(".Step4").hide();
     $(".Step5").show();
     $(".Step6").hide();
+    $("#step1").removeClass("active");
+    $("#step2").removeClass("active");
+    $("#step3").removeClass("active");
+    $("#step4").removeClass("active");
     $("#step5").addClass("active");
+    $("#step6").removeClass("active");
 
 
   });
@@ -83,6 +107,11 @@ $(document).ready(function(){
     $(".Step4").hide();
     $(".Step5").hide();
     $(".Step6").show();
+    $("#step1").removeClass("active");
+    $("#step2").removeClass("active");
+    $("#step3").removeClass("active");
+    $("#step4").removeClass("active");
+    $("#step5").removeClass("active");
     $("#step6").addClass("active");
 
 

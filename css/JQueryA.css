@@ -1,9 +1,12 @@
 body {
-font-family: 'Open Sans', sans-serif;
-
+font-family: 'Mukta', sans-serif;
 }
 .question {
   color: black;
+font-family: 'Do Hyeon', sans-serif;
+}
+h2{
+font-family: 'Hind', sans-serif;
 }
 h1
 {
@@ -16,6 +19,7 @@ h1
   color: red;
   text-align: center;
   box-shadow: 6px 7px 5px 2px #ededed;
+  font-family: 'Abril Fatface', cursive;
 }
 .font{
   color: black;

@@ -65,12 +65,12 @@ $(document).ready(function(){
   $("#step4").click(function(){
     $(".final").hide();
     $(".step").show();
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").show();
-    $("main .5").hide();
-    $("main .6").hide();
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").show();
+    $(".Step5").hide();
+    $(".Step6").hide();
     $("#step1").removeClass("active");
     $("#step2").removeClass("active");
     $("#step3").removeClass("active");
